@@ -79,6 +79,5 @@ def test_area_of_circle_negative_radius():
         area_of_circle(radius)
 
 def test_missing_case():
-    # Add a test covering the missing logic
-    result = calculations.some_missing_function()
+    result = some_missing_function()
     assert result == expected_value
