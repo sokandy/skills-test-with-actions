@@ -78,11 +78,7 @@ def test_area_of_circle_negative_radius():
     with pytest.raises(ValueError):
         area_of_circle(radius)
 
-def test_area_of_circle_negative_radius():
-    """Test with a negative radius to raise ValueError."""
-    # Arrange
-    radius = -1
-
-    # Act & Assert
-    with pytest.raises(ValueError):
-        area_of_circle(radius)
+def test_missing_case():
+    # Add a test covering the missing logic
+    result = calculations.some_missing_function()
+    assert result == expected_value
