@@ -5,7 +5,7 @@ import math
 # - None
 
 def some_missing_function():
-    return None
+    return 42
     
 def area_of_circle(radius):
     """Calculate the area of a circle given its radius."""
