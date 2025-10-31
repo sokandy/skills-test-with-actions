@@ -9,18 +9,6 @@ import pytest
 sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '../src')))
 from calculations import area_of_circle, get_nth_fibonacci   # noqa: E402
 
-# Example additional test
-import unittest
-from src.calculations import some_function
-
-class TestCalculations(unittest.TestCase):
-    def test_some_function(self):
-        # Add comprehensive tests covering all logic branches
-        self.assertEqual(some_function(...), ...)  # Provide actual cases
-
-if __name__ == '__main__':
-    unittest.main()
-
 def test_area_of_circle_positive_radius():
     """Test with a positive radius."""
     # Arrange
