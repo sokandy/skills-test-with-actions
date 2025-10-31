@@ -4,7 +4,9 @@ import math
 # Installed Modules
 # - None
 
-
+def some_missing_function():
+    return 42
+    
 def area_of_circle(radius):
     """Calculate the area of a circle given its radius."""
     if radius < 0:
@@ -25,3 +27,11 @@ def get_nth_fibonacci(n):
         for _ in range(2, n + 1):
             a, b = b, a + b
         return b
+
+# Suppose you have a function in calculations.py like:
+def add(a, b):
+    return a + b
+
+# And your tests only cover subtract, add a test for add:
+def test_add():
+    assert add(2, 3) == 5
